@@ -1,2 +1,2 @@
-# core_python_train
+# Core Python Programs with explanation.
 This repository contains core python programs
