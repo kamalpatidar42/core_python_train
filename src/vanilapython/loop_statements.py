@@ -39,9 +39,20 @@ cnt = 5
 while cnt <= 10:
     print(cnt, end=" ")
     cnt = cnt + 1
-print("\n")
+print("\n"*2)
 
 # Range returns range type of object.
 for cnt in range(1, 11):
     print(cnt, end=" ")
-print(range(1,10))
+print("\n"*2)
+
+# Range with forward step
+for cnt in range(1, 10, 2):
+    print(cnt, end=" ")
+print("\n"*2)
+
+# Range with backward step
+for cnt in range(10, 0, -2):
+    print(cnt, end=" ")
+print("\n"*2)
+
